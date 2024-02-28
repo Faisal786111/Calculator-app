@@ -42,7 +42,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://faisal786111.github.io/Calculator-app/)
 
 ## My process
 
@@ -70,5 +70,5 @@ For continued development, I aim to focus on further refining my skills in web d
 
 ## Author
 
-- Website - [Faisal Khan](https://www.your-site.com)
+- Website - [Faisal Khan](https://faisal786111.github.io/Calculator-app/)
 - Frontend Mentor - [@Faisal786111](https://www.frontendmentor.io/profile/Faisal786111)
