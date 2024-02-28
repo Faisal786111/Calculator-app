@@ -49,6 +49,9 @@ document.addEventListener("keydown" , function({key}) {
             evaluate();
         break;
 
+        case "Enter" :
+            evaluate();
+        break;
         case "+" :
             screen.value +=key;
         break;
