@@ -268,6 +268,12 @@ body.theme3 .equal {
 }
 
 @media (0px < width <=465px) {
+    body {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+    }
+
     .calc-container {
         width: 340px;
     }
