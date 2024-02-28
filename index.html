@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon-32x32.png" />
+
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator App</title>
+
+</head>
+
+<body>
+    <div class="calc-container">
+        <div class="first-container">
+            <div class="toggle-numbers">
+                <p class="one">1</p>
+                <p class="two">2</p>
+                <p class="three">3</p>
+            </div>
+            <div class="calc">
+                <h2>calc</h2>
+                <div class="calc-box">
+                    <p >THEME</p>
+                    <div class="box">
+                        <div class="toggle">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="second-container">
+                <input type="text" readonly name="screen" class="screen">
+        </div>
+
+        <div class="third-container">
+
+            <button onclick="document.getElementsByName('screen')[0].value += '7'">7</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '8'">8</button>
+            <button  onclick="document.getElementsByName('screen')[0].value += '9'" >9</button>
+            <button class="del">DEL</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '4'" >4</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '5'" >5</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '6'" >6</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '+'" >+</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '1'" >1</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '2'" >2</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '3'" >3</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '-'" >-</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '.'" >.</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '0'" >0</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '/'" >/</button>
+            <button onclick="document.getElementsByName('screen')[0].value += '*'" >x</button>
+            <button onclick="document.getElementsByName('screen')[0].value = ''"  class="reset">RESET</button>
+            <button class="equal">=</button>
+
+        </div>
+    </div>
+
+    <script src="index.js">
+       
+    </script>
+</body>
+
+</html>
